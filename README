@@ -1,0 +1,10 @@
+# FlViz
+
+## Installation
+
+```bash
+git clone https://github.com/iyedg/FLViz.git
+cd FLViz
+conda env create -f environment.yml
+jupyter lab
+```
