@@ -38,6 +38,7 @@ dependencies:
   - jupyterlab_code_formatter=0.3.0=py_0
   - jupyterlab_pygments=0.1.0=py_0
   - jupyterlab_server=1.0.4=py_0
+  - jupytext=1.2.1=0
   - libblas=3.8.0=12_openblas
   - libcblas=3.8.0=12_openblas
   - libffi=3.2.1=he1b5a44_1006
@@ -50,7 +51,9 @@ dependencies:
   - libuv=1.30.1=h516909a_0
   - loguru=0.3.2=py_0
   - markupsafe=1.1.1=py37h14c3975_0
+  - mccabe=0.6.1=py_1
   - mistune=0.8.4=py37h14c3975_1000
+  - nb_conda_kernels=2.2.2=py37_0
   - nbconvert=5.6.0=py_0
   - nbformat=4.4.0=py_1
   - ncurses=6.1=hf484d3e_1002
@@ -71,11 +74,16 @@ dependencies:
   - prompt_toolkit=2.0.9=py_0
   - psutil=5.6.3=py37h516909a_0
   - ptyprocess=0.6.0=py_1001
+  - pycodestyle=2.5.0=py_0
+  - pydocstyle=4.0.1=py_0
+  - pyflakes=2.1.1=py_0
   - pygments=2.4.2=py_0
+  - pylama=7.7.1=py_0
   - pyrsistent=0.15.4=py37h516909a_0
   - python=3.7.3=h33d41f4_1
   - python-dateutil=2.8.0=py_0
   - pytz=2019.2=py_0
+  - pyyaml=5.1.2=py37h516909a_0
   - pyzmq=18.0.2=py37h1768529_2
   - qgrid=1.1.1=py37_1001
   - readline=8.0=hf8c457e_0
@@ -83,6 +91,7 @@ dependencies:
   - send2trash=1.5.0=py_0
   - setuptools=41.0.1=py37_0
   - six=1.12.0=py37_1000
+  - snowballstemmer=1.9.0=py_0
   - sqlite=3.29.0=hcee41ef_0
   - terminado=0.8.2=py37_0
   - testpath=0.4.2=py_1001
@@ -100,7 +109,26 @@ dependencies:
   - widgetsnbextension=3.5.1=py37_0
   - xlrd=1.2.0=py_0
   - xz=5.2.4=h14c3975_1001
+  - yaml=0.1.7=h14c3975_1001
   - zeromq=4.3.2=he1b5a44_2
   - zlib=1.2.11=h516909a_1005
+  - pip:
+    - cachetools==3.1.1
+    - chardet==3.0.4
+    - datasheets==0.3.0
+    - google-api-python-client==1.7.11
+    - google-auth==1.6.3
+    - google-auth-httplib2==0.0.3
+    - google-auth-oauthlib==0.4.0
+    - httplib2==0.13.1
+    - idna==2.8
+    - oauthlib==3.1.0
+    - pyasn1==0.4.6
+    - pyasn1-modules==0.2.6
+    - requests==2.22.0
+    - requests-oauthlib==1.2.0
+    - rsa==4.0
+    - uritemplate==3.0.0
+    - urllib3==1.25.3
 prefix: /home/iyed/miniconda3/envs/flviz
 
